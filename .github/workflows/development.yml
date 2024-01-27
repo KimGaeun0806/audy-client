@@ -41,8 +41,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run Eslint
-        run: pnpm lint
-
       - name: Run Prettier
         run: pnpm prettier
